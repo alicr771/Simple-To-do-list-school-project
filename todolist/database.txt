@@ -1,0 +1,29 @@
+database : adminlogin
+
+tabel : tb_login
+isi tabel :
+id int primary key auto_increment
+username varchar(100)
+pass varchar(100)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+tabel : task
+isi tabel :
+id int primary key auto_increment
+nama_tugas varchar(100)
+deskripsi_tugas varchar(500)
+deadline datetime
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+tabel : done
+isi tabel :
+id int primary key auto_increment
+nama_tugas varchar(100)
+deskripsi_tugas varchar(500)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+tabel : overdue
+isi tabel :
+id int primary key auto_increment
+nama_tugas varchar(100)
+deskripsi_tugas varchar(500)
